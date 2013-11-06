@@ -5,8 +5,8 @@
 
 namespace Ui {
 class MainWindow;
-class MySyntaxHighlighter;
 }
+class MySyntaxHighlighter;
 
 class MainWindow : public QMainWindow
 {
@@ -18,7 +18,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    Ui::MySyntaxHighlighter *highlighter;
+    MySyntaxHighlighter *highlighter;
 };
 
 #endif // MAINWINDOW_H
